@@ -12,54 +12,32 @@ function cwrc_event_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
-  $export['views-News-block'] = array(
+  $export['views-events-block'] = array(
     'cache' => -1,
     'css_class' => '',
     'custom' => 0,
-    'delta' => 'News-block',
+    'delta' => 'events-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'news/*
-events',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'de_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'de_theme',
         'weight' => 0,
       ),
     ),
     'title' => '',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
-  $export['views-News-block_1'] = array(
+  $export['views-events-block_1'] = array(
     'cache' => -1,
     'css_class' => 'homepage-news-event',
     'custom' => 0,
-    'delta' => 'News-block_1',
-    'module' => 'views',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'de_theme' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'de_theme',
-        'weight' => -2,
-      ),
-    ),
-    'title' => 'News',
-    'visibility' => 1,
-  );
-
-  $export['views-News-block_2'] = array(
-    'cache' => -1,
-    'css_class' => 'homepage-news-event',
-    'custom' => 0,
-    'delta' => 'News-block_2',
+    'delta' => 'events-block_1',
     'module' => 'views',
     'node_types' => array(),
     'pages' => '<front>',
@@ -72,7 +50,7 @@ events',
         'weight' => -1,
       ),
     ),
-    'title' => 'News',
+    'title' => '',
     'visibility' => 1,
   );
 

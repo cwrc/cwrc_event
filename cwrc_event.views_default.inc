@@ -441,6 +441,8 @@ function cwrc_event_views_default_views() {
     t('<a class="view-all-items" href="/news">View all News</a>'),
     t('Homepage Events'),
     t('Events'),
+    t('
+'),
   );
   $export['events'] = $view;
 
