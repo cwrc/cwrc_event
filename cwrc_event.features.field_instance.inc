@@ -22,7 +22,7 @@ function cwrc_event_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => -1,
+        'weight' => 5,
       ),
       'featured_carousel' => array(
         'label' => 'above',
@@ -247,7 +247,7 @@ function cwrc_event_field_default_field_instances() {
           'use_widget_handlers' => 1,
         ),
         'type' => 'addressfield_default',
-        'weight' => -2,
+        'weight' => 3,
       ),
       'featured_carousel' => array(
         'label' => 'above',
