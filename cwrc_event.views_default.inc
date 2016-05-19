@@ -190,7 +190,7 @@ function cwrc_event_views_default_views() {
   $handler->display->display_options['fields']['field_event_date_1']['alter']['text'] = '[field_event_date] to [field_event_date_1]';
   $handler->display->display_options['fields']['field_event_date_1']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_event_date_1']['settings'] = array(
-    'format_type' => 'end_date_time',
+    'format_type' => 'start_date_full',
     'fromto' => 'value2',
     'multiple_number' => '',
     'multiple_from' => '',
@@ -251,7 +251,7 @@ function cwrc_event_views_default_views() {
   $handler->display->display_options['footer']['area']['id'] = 'area';
   $handler->display->display_options['footer']['area']['table'] = 'views';
   $handler->display->display_options['footer']['area']['field'] = 'area';
-  $handler->display->display_options['footer']['area']['content'] = '<a class="view-all-items" href="/news">View all News</a>';
+  $handler->display->display_options['footer']['area']['content'] = '<a class="view-all-items" href="/events">View all Events</a>';
   $handler->display->display_options['footer']['area']['format'] = 'filtered_html';
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Content: Title */
@@ -290,7 +290,7 @@ function cwrc_event_views_default_views() {
   $handler->display->display_options['fields']['field_event_date_1']['alter']['text'] = '[field_event_date] to [field_event_date_1]';
   $handler->display->display_options['fields']['field_event_date_1']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_event_date_1']['settings'] = array(
-    'format_type' => 'end_date_time',
+    'format_type' => 'start_date_full',
     'fromto' => 'value2',
     'multiple_number' => '',
     'multiple_from' => '',
@@ -367,7 +367,7 @@ function cwrc_event_views_default_views() {
   $handler->display->display_options['fields']['field_event_date_1']['alter']['text'] = '[field_event_date] to [field_event_date_1]';
   $handler->display->display_options['fields']['field_event_date_1']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_event_date_1']['settings'] = array(
-    'format_type' => 'end_date_time',
+    'format_type' => 'start_date_full',
     'fromto' => 'value2',
     'multiple_number' => '',
     'multiple_from' => '',
@@ -438,7 +438,7 @@ function cwrc_event_views_default_views() {
 '),
     t('Block'),
     t('Upcoming Events'),
-    t('<a class="view-all-items" href="/news">View all News</a>'),
+    t('<a class="view-all-items" href="/events">View all Events</a>'),
     t('Homepage Events'),
     t('Events'),
     t('

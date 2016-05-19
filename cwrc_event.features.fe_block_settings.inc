@@ -19,18 +19,19 @@ function cwrc_event_default_fe_block_settings() {
     'delta' => 'events-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'news
+event/*',
     'roles' => array(),
     'themes' => array(
       'de_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_second',
+        'status' => 1,
         'theme' => 'de_theme',
         'weight' => 0,
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-events-block_1'] = array(
@@ -47,10 +48,10 @@ function cwrc_event_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'de_theme',
-        'weight' => -1,
+        'weight' => -21,
       ),
     ),
-    'title' => '',
+    'title' => 'Events',
     'visibility' => 1,
   );
 
