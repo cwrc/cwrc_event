@@ -43,3 +43,5 @@ features[variable][] = node_options_event
 features[variable][] = node_preview_event
 features[variable][] = node_submitted_event
 features[views_view][] = events
+features_exclude[field_base][field_address] = field_address
+features_exclude[field_instance][node-event-field_address] = node-event-field_address

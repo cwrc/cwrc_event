@@ -146,8 +146,6 @@ function cwrc_event_views_default_views() {
   $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image']['element_wrapper_type'] = '0';
   $handler->display->display_options['fields']['field_image']['element_default_classes'] = FALSE;
-  $handler->display->display_options['fields']['field_image']['empty'] = '<img src="/development/themes/de_theme/img/events-default.png"/>
-';
   $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_image']['settings'] = array(
     'image_style' => 'view_rectangle_img',
@@ -434,8 +432,6 @@ function cwrc_event_views_default_views() {
     t('[field_event_date] to [field_event_date_1]'),
     t('Read More'),
     t('Page'),
-    t('<img src="/development/themes/de_theme/img/events-default.png"/>
-'),
     t('Block'),
     t('Upcoming Events'),
     t('<a class="view-all-items" href="/events">View all Events</a>'),
