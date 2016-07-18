@@ -413,6 +413,14 @@ function cwrc_event_views_default_views() {
   $handler->display->display_options['fields']['view_node']['element_class'] = 'read-more-link';
   $handler->display->display_options['fields']['view_node']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['view_node']['text'] = 'Read More';
+  /* Field: Link to all events */
+  $handler->display->display_options['fields']['nothing']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['table'] = 'views';
+  $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
+  $handler->display->display_options['fields']['nothing']['ui_name'] = 'Link to all events';
+  $handler->display->display_options['fields']['nothing']['label'] = '';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div class="view-all-link"><a href="/events">View All Events</a></div>';
+  $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $translatables['events'] = array(
     t('Master'),
     t('Upcoming CWRC Events'),
@@ -439,6 +447,7 @@ function cwrc_event_views_default_views() {
     t('Events'),
     t('
 '),
+    t('<div class="view-all-link"><a href="/events">View All Events</a></div>'),
   );
   $export['events'] = $view;
 
