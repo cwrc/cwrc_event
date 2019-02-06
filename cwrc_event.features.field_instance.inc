@@ -10,7 +10,7 @@
 function cwrc_event_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-event-body'
+  // Exported field_instance: 'node-event-body'.
   $field_instances['node-event-body'] = array(
     'bundle' => 'event',
     'default_value' => NULL,
@@ -67,7 +67,7 @@ function cwrc_event_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-event-field_event_date'
+  // Exported field_instance: 'node-event-field_event_date'.
   $field_instances['node-event-field_event_date'] = array(
     'bundle' => 'event',
     'deleted' => 0,
@@ -144,7 +144,7 @@ function cwrc_event_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-event-field_image'
+  // Exported field_instance: 'node-event-field_image'.
   $field_instances['node-event-field_image'] = array(
     'bundle' => 'event',
     'deleted' => 0,
@@ -230,7 +230,7 @@ function cwrc_event_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-event-field_location'
+  // Exported field_instance: 'node-event-field_location'.
   $field_instances['node-event-field_location'] = array(
     'bundle' => 'event',
     'default_value' => NULL,
@@ -305,7 +305,7 @@ function cwrc_event_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-event-title_field'
+  // Exported field_instance: 'node-event-title_field'.
   $field_instances['node-event-title_field'] = array(
     'bundle' => 'event',
     'default_value' => NULL,

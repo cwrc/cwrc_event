@@ -6,6 +6,7 @@ project = cwrc_event
 dependencies[] = addressfield
 dependencies[] = borealis_sb
 dependencies[] = ctools
+dependencies[] = cwrc_baseline
 dependencies[] = cwrc_components
 dependencies[] = date
 dependencies[] = fe_block
